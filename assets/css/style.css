@@ -1,0 +1,409 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column{
+    flex-direction: column;
+}
+
+header {
+    justify-content: center;
+    height: 120px;
+}
+.container {
+    width: 990px;
+    justify-content: space-between;
+}
+
+.logo{
+    align-items: center;
+}
+
+.menu {
+    align-items: center;
+    display:flex;
+}
+
+nav ul {
+	display:flex;
+}
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+nav .active  a,
+nav a:hover {
+    background-color: #39AAE1;
+    color: #FFFF;
+}
+
+#banner {
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    height: 670px;
+}
+
+.banner_headline{
+    flex: 1;
+    justify-content: center;
+    
+}
+
+.banner_headline h1 {
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner_headline h2 {
+    color: white;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner_options{
+    height: 210px;
+}
+
+.banner1, .banner2, .banner3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+
+.banner1{
+    background-color: #39AAE1;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4cc9;
+}
+
+.banner_title{
+    font-size: 21px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.banner_horarios {
+    justify-content: space-between;
+}
+
+.banner_horarios ul {
+    padding: 0;
+}
+.banner_horarios li{
+    list-style: none;
+    padding: 10px 0;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+}
+
+#geral {
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 3px;
+    background-color: #39AAE1;
+    margin-top: 10px;
+}
+.departments{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.department {
+    width: 150px;
+    height: 150px;
+    background-color: #39AAE1;
+    margin-bottom: 22px;
+}
+
+.widget_body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget_body li {
+    border-top: 1px solid #CCC;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.widget_body span {
+    margin: 0 5px;
+}
+article{
+    color: white;
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+article .news_data {
+    display: flex;
+    color: white;
+}
+
+article .news_posted_at {
+    background-color: #2b4cc9;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+ 
+article .news_comments {
+    background-color: #39AAE1;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news_thumb {
+    margin-top: 30px;
+}
+
+article .news_thumb img {
+    width: 100%;
+    height: auto;
+}
+
+article .news_title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    font-size: 23px;
+}
+
+article .news_resume {
+    color: #CCC;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+article a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1e1e1e;
+    justify-content: center;
+}
+
+.footer_menu {
+    
+}
+
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: white;
+    padding: 20px;
+} 
+
+.fm1{
+    background-color: #39AAE1;
+}
+
+.fm2 {
+    background-color: #0079c7;
+}
+
+.fm3 {
+    background-color: #2b4cc9;
+}
+
+.footer_area {
+    color: white;
+}
+
+.footer_areaitem {
+    flex: 1;
+}
+
+footer .widget_title_text {
+    color: white;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+footer .widget_body li {
+    border-top: none;
+    border-bottom: none;
+}
+
+footer .banner_horarios {
+    align-items: flex-end;
+}
+.list_posts {
+    margin-left: 20px;
+}
+
+.list_posts ul{
+    padding-left: 10px;
+    
+}
+
+.list_posts li {
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.list_posts li p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list_posts li small {
+    color: #0079c7;
+}
+
+.menuMobile {
+	display:none;
+	width:40px;
+	height:40px;
+	margin-top:40px;
+	margin-bottom:40px;
+	margin-right:20px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #39AAE1;
+}
+
+@media (max-width: 600px) {
+
+    .banner_headline {
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 55px;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #geral section,
+    #geral aside {
+        padding: 20px;
+    }
+
+    .footer_menu,
+    .footer_area {
+        flex-direction: column;
+    }
+
+    .footer_area {
+        padding: 20px;
+    }
+
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: white;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile {
+        display:flex;
+		flex-direction: column;
+		justify-content:space-around;
+    }
+}
