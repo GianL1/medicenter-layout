@@ -1,7 +1,7 @@
 
 COMANDOS PARA COMPILAR ESTE PROJETO
 
-No diretório do deste projeto faça:
+cd medicenter-layout
 
 1- Para compilar a imagem Docker:
  
@@ -18,7 +18,7 @@ No diretório do deste projeto faça:
     -p 88:80 \
     --name ctn-html \
     --restart=always \
-    gyanlima/curso-docker
+    gyanlima/curso-docker:0.0.1
 
 
 3- No Browser: 
@@ -31,8 +31,6 @@ No diretório do deste projeto faça:
 
     docker login -u gyanlima
 
-
-    docker image push gyanlima/curso-docker:0.0.1
 
 
     docker push gyanlima/curso-docker:0.0.1
