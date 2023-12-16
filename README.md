@@ -30,8 +30,6 @@ No diretório do deste projeto faça:
 Enviando a imagem para o Docker Hub:
  
 bash
-
-
 docker login -u gyanlima
   
 docker container commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
