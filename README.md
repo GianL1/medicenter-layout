@@ -30,11 +30,7 @@ No diretório do deste projeto faça:
 
 
     docker login -u gyanlima
-    
-    docker container commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
 
-
-    docker commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
 
     docker image push gyanlima/curso-docker:0.0.1
 
