@@ -1,13 +1,21 @@
-Passo a passo para compilar o projeto
-
-1-docker build -t html-server-image:v1 . 
 
 
+Comando para compilar a imagem Docker:
+ 
+bash
+cd medicenter
+docker build -t gyanlima/curso-docker:0.0.1 .
+
+ 
+Comando para criar o conteiner Docker:
+ 
+bash
 docker container run -d \
  -p 88:80 \
  --name ctn-html \
  --restart=always \
  gyanlima/curso-docker
 
-No Browser: 
+
+ No Browser: 
 http://localhost:88
