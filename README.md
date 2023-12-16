@@ -13,7 +13,7 @@ No diretório do deste projeto faça:
  
 2- Comando para criar o conteiner Docker:
  
-    bash
+    
     docker container run -d \
     -p 88:80 \
     --name ctn-html \
@@ -25,11 +25,9 @@ No diretório do deste projeto faça:
     http://localhost:88
 
 
-4- Para subir a imagem no docker Hub
+4- Enviando a imagem para o Docker Hub:
 
-Enviando a imagem para o Docker Hub:
- 
-bash
+
 docker login -u gyanlima
   
 docker container commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
