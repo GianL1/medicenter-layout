@@ -3,23 +3,23 @@ COMANDOS PARA COMPILCAR ESTE PROJETO
 
 No diretório do deste projeto faça:
 
-para compilar a imagem Docker:
+1- Para compilar a imagem Docker:
  
-docker pull gyanlima/curso-docker:0.0.1 
+    BAIXAR IMAGEM DOCKER: docker pull gyanlima/curso-docker:0.0.1 
 
 
-docker build -t gyanlima/curso-docker:0.0.1 .
+    BUILDAR IMAGEM docker build -t gyanlima/curso-docker:0.0.1 .
 
  
-Comando para criar o conteiner Docker:
+2- Comando para criar o conteiner Docker:
  
-bash
-docker container run -d \
- -p 88:80 \
- --name ctn-html \
- --restart=always \
- gyanlima/curso-docker
+    bash
+    docker container run -d \
+    -p 88:80 \
+    --name ctn-html \
+    --restart=always \
+    gyanlima/curso-docker
 
 
- No Browser: 
-http://localhost:88
+3=No Browser: 
+    http://localhost:88
