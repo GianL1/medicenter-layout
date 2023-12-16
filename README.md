@@ -22,20 +22,21 @@ No diretório do deste projeto faça:
 
 
 3- No Browser: 
+
     http://localhost:88
 
 
 4- Enviando a imagem para o Docker Hub:
 
 
-docker login -u gyanlima
-  
-docker container commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
+    docker login -u gyanlima
+    
+    docker container commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
 
 
-docker commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
+    docker commit -m "MENSAGEM_COMMIT" ctn-html gyanlima/curso-docker:0.0.1
 
-docker image push gyanlima/curso-docker:0.0.1
+    docker image push gyanlima/curso-docker:0.0.1
 
 
-docker push gyanlima/curso-docker:0.0.1
+    docker push gyanlima/curso-docker:0.0.1
