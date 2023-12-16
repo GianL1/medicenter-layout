@@ -21,7 +21,7 @@ No diretório do deste projeto faça:
     gyanlima/curso-docker
 
 
-3-No Browser: 
+3- No Browser: 
     http://localhost:88
 
 
